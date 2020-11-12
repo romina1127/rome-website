@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" 
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" 
+        crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./style_page-3.css"/>
+        <title>Contact Page</title>
+    </head>
+    <body>
+        <nav>
+            <h1>Contact Form</h1>
+            <br>
+            <div class="top-links">
+                <a class="btn btn-default top-link" href="file:///C:/Users/ramdu/OneDrive/Desktop/Coding%20CAPS/index.html">Home</a>
+                <a class="btn btn-default top-link" href="file:///C:/Users/ramdu/OneDrive/Desktop/Coding%20CAPS/index_2.html">Portfolio</a>
+                <a class="btn btn-default top-link" href="file:///C:/Users/ramdu/OneDrive/Desktop/Coding%20CAPS/index_3.html">Contact Form</a>
+            </div>
+            <h2>Interested in working with me or just want to know about my projects? <br>
+                Contact me below!
+            </h2>
+        </nav>
+        <section>
+            <div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email Address:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="email-confirm">Confirm Email:</label><br>
+                        <input type="email" id="form-control" name="email-confirm" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="first-name" name="first-name" class="form-control" placeholder="ex. John Doe">
+                    </div>
+                    <!-- Checkboxes for what cilent is interested in -->
+                    <h3>What are you interested in?</h3>
+                    <input type="checkbox" id="commission" name="commission" value="Commission">
+                    <label for="Commission">Commission Work </label><a class="link" href=""> Check for prices here</a><br>
+                    <input type="checkbox" id="collab" name="collab" value="Collab">
+                    <label for="Collab">Collaboration Work</label><br>
+                    <input type="checkbox" id="art-advice" name="advice" value="Art-Advice">
+                    <label for="Art-Advice">Art Advice</label><br>
+                    <input type="checkbox" id="info" name="info" value="Info">
+                    <label for="Info">Project Information</label>
+                    <!-- Preferred Contact -->
+                    <h3>How would you like me to contact you back?</h3>
+                    <div class="radio-buttons">
+                        <input type="radio" id="phone-call" name="contact" value="phone-call">
+                        <label for="phone-call">Call Back (Phone)</label>
+                        <input type="radio" id="phone-text" name="contact" value="phone-text">
+                        <label for="phone-text">Text (Phone)</label>
+                        <input type="radio" id="email-contact" name="contact" value="email-contact">
+                        <label for="email-contact">Email</label> <br>
+                    </div>
+                    <div class="form-group">
+                        <label for="cell-number">Phone Number (if call/text selected) </label>
+                        <input type="text" id="cell-number" name="cell-number" class="form-control" placeholder="XXX-XXX-XXXX"> <br>
+                    </div>
+    
+                    <textarea rows="4" cols="75" class="form-control" placeholder="Add any specific details regarding to your request here..."></textarea>
+                    <button class="btn btn-default" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
