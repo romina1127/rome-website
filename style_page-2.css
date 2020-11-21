@@ -2,3 +2,58 @@ body {
     padding: 5px;
     background-color: rgb(255, 199, 221);
 }
+
+h1 {
+    color: black;
+    background-color: white;
+    font-family: verdana;
+    font-size: 36px;
+    text-align: center;
+    border: 4px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+  
+h2 {
+    font-family: verdana;
+    text-align: center;
+}
+  
+nav {
+    text-align: center;
+    margin: 10px 30px 10px 30px;
+    padding: 30px;
+}
+  
+  .btn.btn-default {
+    font-size: 28px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 20px;
+  } 
+  
+  .btn.btn-default:hover {
+    color: rgb(126, 61, 112);
+    background-color: rgb(235, 139, 211);
+    border-color: rgb(126, 61, 112);
+  }
+  
+  .row {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  iframe {
+    margin-left: 10px;
+    width: 500px;
+    height: 315px;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  
