@@ -25,7 +25,7 @@ nav {
     padding: 30px;
 }
   
-  .btn.btn-default {
+.btn.btn-default {
     font-size: 28px;
     border: 3px solid black;
     border-radius: 5px;
@@ -35,25 +35,61 @@ nav {
     text-align: center;
     text-decoration: none;
     margin: 10px 20px;
-  } 
+} 
   
-  .btn.btn-default:hover {
+.btn.btn-default:hover {
     color: rgb(126, 61, 112);
     background-color: rgb(235, 139, 211);
     border-color: rgb(126, 61, 112);
-  }
+}
   
-  .row {
+.row {
     width: 1024px;
     margin: 0 auto;
-  }
+}
   
-  iframe {
+iframe {
     margin-left: 10px;
     width: 500px;
     height: 315px;
     border: none;
     border-radius: 6px;
-  }
-  
-  
+}
+
+.row {
+    margin: 10px auto;
+}
+
+.row.three-img {
+    width: 1300px;
+}
+
+.row.four-img {
+    width: 1325px;
+}
+ 
+.col-md-4 {
+    width: auto;
+} 
+
+.col-md-3 {
+    width: auto;
+} 
+
+img {
+    border-radius: 4px;
+}
+
+.img-responsive.three-img {
+    position: relative;
+    width: auto;
+    max-height: 296px;
+    object-fit: cover;
+}
+
+.img-responsive.four-img {
+    position: relative;
+    width: auto;
+    max-height: 358px;
+    object-fit: cover;
+}
